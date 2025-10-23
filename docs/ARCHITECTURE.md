@@ -81,7 +81,8 @@ design-agent-research/
 │   │   ├── requests.py             # AgentRequest
 │   │   └── responses.py            # DesignResearchResponse + submodels
 │   ├── evaluation/
-│   │   └── evaluator.py            # LLM‑based evaluator (streaming)
+│   │   ├── evaluator.py            # LLM‑based evaluator (streaming)
+│   │   └── prompts.py              # Evaluation prompt builder
 │   ├── schemas/
 │   │   ├── requests.py             # AgentRequest
 │   │   ├── responses.py            # DesignResearchResponse + submodels
